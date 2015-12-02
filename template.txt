@@ -1,0 +1,36 @@
+#################################################################
+object			yiHa
+pos			0	0
+vel			0.0	0.0
+accel			0.0	0.0
+depth			4
+ghost			False
+camRelative		True
+scale			0.35
+transparency		1.0
+mirror			False	False
+----------------------------------------------------------
+animation		Standing
+imgFile			data/chars/yiha/yiHastand.png
+frameDim		1024	512
+fps			3
+loop			True
+subFrameTotal		4
+subFrameDim		256	350	
+----------------------------------------------------------
+animation		Running
+imgFile			data/chars/yiha/yiHarun.png
+frameDim		2048	1024
+fps			30
+loop			True
+subFrameTotal		20
+subFrameDim		256	341
+----------------------------------------------------------
+animation		Jumping
+imgFile			data/chars/yiha/yiHajump.png
+frameDim		1024	1024
+fps			17
+loop			True
+subFrameTotal		12
+subFrameDim		256	341
+##########################################################
